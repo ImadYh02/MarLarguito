@@ -1,0 +1,6 @@
+.banner {
+  background-image: url("../../../public/banner-bg.jpg");
+  background-position: center;
+  background-size: cover;
+  background-attachment: scroll;
+}

@@ -1,0 +1,17 @@
+In the menu :
+	- Home
+	- Nos Service
+	- Gallerie
+	- About
+	- Contact
+
+Ne3raf b rassy hiya awel 7aja, yemkan liya nezid dashboard, newsletter, blog...
+
+Contact:
+	https://templates.hibootstrap.com/dobby/default/contact.html
+
+Gallery:
+	https://templates.hibootstrap.com/dobby/default/gallery.html
+
+Inspiration:
+	https://marinio.peerduck.com/

@@ -1,0 +1,252 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,700;1,400;1,800&family=Work+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap"); */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap");
+
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* font-family: "Work Sans", sans-serif; */
+  font-family: "Inter", sans-serif;
+}
+
+.booking {
+  display: flex;
+  flex-direction: column;
+  height: 90vh;
+}
+
+.booking img {
+  border-radius: 10px;
+}
+
+.booking-form {
+  background: linear-gradient(to left, #bdc3c7, #2c3e50);
+}
+
+.testimonials {
+  height: 80vh;
+  margin-top: 100px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  /* height: 100%; */
+}
+
+.card-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.offre-card {
+  transition: 0.3s;
+}
+
+.offre-card:hover,
+.offre-card h3:hover {
+  color: white;
+  transition: 0.3s;
+}
+
+.offre-card:hover {
+  background-image: url(../../../public/bg-card-offre.jpg);
+  transition: 0.3s;
+}
+
+.insta-ic,
+.insta-h {
+  transition: all 0.3s ease-in-out;
+}
+
+.insta-link:hover {
+  /* transform: scale(1.1); */
+  background: linear-gradient(to right, #ff3019 0%, #c90477 100%);
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+  .insta-h {
+    transform: translateX(19px);
+    padding-right: 0;
+    color: #fff;
+  }
+  .insta-ic {
+    transform: translateX(30px);
+    opacity: 0;
+  }
+}
+
+.footer-l,
+.footer {
+  background-color: #a2d9ff;
+}
+
+.apply-section {
+  background-image: url("../../../public/apply-bg.png");
+  background-size: cover;
+  background-attachment: scroll;
+}
+
+.f-bg-wave {
+  fill: #a2d9ff;
+}
+
+.banner {
+  background-image: url("../../../public/banner-bg.jpg");
+  background-position: center;
+  background-size: cover;
+  background-attachment: scroll;
+}
+
+.dot-cont {
+  height: 60px;
+  width: 60px;
+  border: 2px solid rgba(255, 255, 255, 0.7);
+  border-radius: 50px;
+  position: absolute;
+  top: 10%;
+  right: 10%;
+  animation: animate 4s linear infinite;
+}
+
+.dot {
+  height: 10px;
+  width: 10px;
+  border-radius: 50px;
+  background: rgba(255, 255, 255, 0.5);
+  position: absolute;
+  top: 20%;
+  left: 20%;
+}
+
+.dot-cont:nth-child(1) {
+  top: 20%;
+  left: 20%;
+  animation: animate 8s linear infinite;
+}
+
+.dot-cont:nth-child(2) {
+  top: 60%;
+  left: 80%;
+  animation: animate 10s linear infinite;
+}
+
+.dot-cont:nth-child(3) {
+  top: 40%;
+  left: 40%;
+  animation: animate 5s linear infinite;
+}
+
+.dot-cont:nth-child(4) {
+  top: 66%;
+  left: 30%;
+  animation: animate 7s linear infinite;
+}
+
+.dot-cont:nth-child(5) {
+  top: 90%;
+  left: 10%;
+  animation: animate 9s linear infinite;
+}
+
+.dot-cont:nth-child(6) {
+  top: 30%;
+  left: 60%;
+  animation: animate 5s linear infinite;
+}
+
+.dot-cont:nth-child(7) {
+  top: 70%;
+  left: 20%;
+  animation: animate 8s linear infinite;
+}
+
+.dot-cont:nth-child(8) {
+  top: 75%;
+  left: 60%;
+  animation: animate 10s linear infinite;
+}
+
+.dot-cont:nth-child(9) {
+  top: 50%;
+  left: 50%;
+  animation: animate 6s linear infinite;
+}
+
+.dot-cont:nth-child(10) {
+  top: 45%;
+  left: 20%;
+  animation: animate 10s linear infinite;
+}
+
+.dot-cont:nth-child(11) {
+  top: 10%;
+  left: 90%;
+  animation: animate 9s linear infinite;
+}
+
+.dot-cont:nth-child(12) {
+  top: 20%;
+  left: 70%;
+  animation: animate 7s linear infinite;
+}
+
+.dot-cont:nth-child(13) {
+  top: 20%;
+  left: 20%;
+  animation: animate 8s linear infinite;
+}
+
+.dot-cont:nth-child(14) {
+  top: 60%;
+  left: 50%;
+  animation: animate 6s linear infinite;
+}
+
+.dot-cont:nth-child(15) {
+  top: 90%;
+  left: 80%;
+  animation: animate 9s linear infinite;
+}
+
+@keyframes animate {
+  0% {
+    transform: scale(0) translateY(0) rotate(70deg);
+  }
+  100% {
+    transform: scale(1.3) translateY(-100px) rotate(360deg);
+  }
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
