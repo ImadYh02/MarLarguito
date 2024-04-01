@@ -39,7 +39,10 @@ export default function RootLayout({
 
       <Script src="../path/to/flowbite/dist/datepicker.js"></Script>
       <Script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.1/flowbite.min.js"></Script>
-      <body className={inter.className}> {children} </body>
+      <body className={inter.className}>
+        {children}
+        {/* <Script src="../path/to/flowbite/dist/flowbite.min.js"></Script> */}
+      </body>
     </html>
   );
 }

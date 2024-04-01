@@ -4,7 +4,7 @@ import Img1 from "../../../public/desc-1.jpg";
 
 function Stat() {
   return (
-    <div className="h-full mt-[220px] lg:mt-0 images">
+    <div className="h-full mt-[280px] lg:mt-0 images">
       <div className="w-full lg:px-20 px-5 stats lg:stats-horizontal stats-vertical shadow">
         <div className="stat">
           <div className="stat-figure text-primary">

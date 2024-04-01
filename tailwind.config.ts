@@ -26,7 +26,8 @@ const config: Config = {
   darkMode: "class",
   plugins: [
             require("daisyui"),
-            require("tw-elements/dist/plugin.cjs")],
+            require("tw-elements/dist/plugin.cjs"),
+          ],
   daisyui: {
     themes: ["light", "dark"],
   },

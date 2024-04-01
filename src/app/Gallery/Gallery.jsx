@@ -1,6 +1,7 @@
 import Image from "next/image";
 import React from "react";
 import Images from "./Images";
+import Link from "next/link";
 
 import gallerie_1 from "../../../public/galleries/gallerie_1.jpg"
 import gallerie_2 from "../../../public/galleries/gallerie_2.jpg"
@@ -9,6 +10,7 @@ import gallerie_4 from "../../../public/galleries/gallerie_4.jpg"
 import gallerie_5 from "../../../public/galleries/gallerie_5.jpg"
 import gallerie_6 from "../../../public/galleries/gallerie_6.jpg"
 import gallerie_7 from "../../../public/galleries/gallerie_7.jpg"
+import InstaIc from "../../../public/instagram-ic.png";
 
 function Gallery() {
   return (

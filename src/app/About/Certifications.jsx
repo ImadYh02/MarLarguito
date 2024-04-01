@@ -5,7 +5,7 @@ import Img1 from "../../../public/about-5.jpeg";
 
 function Certifications() {
   return (
-    <div className="w-full h-[65vh] flex flex-col-reverse lg:flex-row justify-center lg:mt-10 mt-[300px]">
+    <div className="w-full h-[65vh] flex flex-col-reverse lg:flex-row justify-center lg:mt-10 mt-[250px]">
       <div className="lg:w-[60%] lg:mt-16 flex-col gap-5 mx-9 lg:ml-20 textDiv">
         <h1 className="text-4xl lg:text-5xl md:text-center lg:text-center text-center font-semibold leading-1 tracking-wider text-yellow-500">
           Certifications

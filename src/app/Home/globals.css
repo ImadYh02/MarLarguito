@@ -250,3 +250,18 @@ html {
   height: 100%;
   object-fit: cover;
 }
+
+.active {
+  color: white;
+  background-color: rgb(234 179 8 / var(--tw-bg-opacity));
+  font-weight: bold;
+}
+
+@media (min-width: 768px) {
+  .active, link-hover:hover {
+      background-color: transparent;
+      color: rgb(234 179 8 / var(--tw-text-opacity));
+      padding: 0px;
+      text-decoration: none;
+  }
+}

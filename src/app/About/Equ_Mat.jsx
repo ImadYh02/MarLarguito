@@ -5,7 +5,7 @@ import Img1 from "../../../public/about-4.jpeg";
 
 function Equ_Mat() {
   return (
-    <div className="w-full mb-[150px] lg:mb-0 h-[65vh] flex flex-col lg:flex-row justify-center lg:mt-10 mt-[300px]">
+    <div className="w-full mb-[190px] lg:mb-0 h-[65vh] flex flex-col lg:flex-row justify-center lg:mt-10 mt-[300px]">
       <div className="lg:w-1/2 flex justify-center items-center mx-10 images">
         <Image
           src={Img1}

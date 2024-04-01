@@ -1,5 +1,9 @@
 import React from "react";
 import Comments from "../Other/Comments";
+import CommentUser1 from "../../../public/comment-user-1.jpg";
+import CommentUser2 from "../../../public/comment-user-2.jpg";
+import CommentUser3 from "../../../public/comment-user-3.jpg";
+import CommentUser4 from "../../../public/comment-user-4.jpg";
 
 function Testimonial() {
   return (
@@ -20,27 +24,27 @@ function Testimonial() {
             <div className="grid gap-4 md:grid-cols-2">
               <div className="grid content-center gap-4">
                 <Comments
-                  comment="MarLarguito exceeded my expectations! From vibrant marine life to expert guidance, every dive was unforgettable. Their teams professionalism and warm hospitality made each adventure a delight."
-                  src="https://source.unsplash.com/50x50/?portrait?1"
+                  comment="MarLarguito exceeded my expectations! From vibrant marine life to expert guidance."
+                  image={CommentUser1}
                   name="Leroy Jenkins"
                 />
 
                 <Comments
-                  comment="Diving with MarLarguito was awe-inspiring! Pristine waters, breathtaking coral reefs, and skilled instructors made every dive a dream. I can't wait to explore the ocean with them again."
-                  src="https://source.unsplash.com/50x50/?portrait?1"
+                  comment="Diving with MarLarguito was awe-inspiring! Pristine waters, breathtaking coral reefs, and skilled instructors made every dive a dream."
+                  image={CommentUser2}
                   name="Leroy Jenkins"
                 />
               </div>
               <div className="grid content-center gap-4">
                 <Comments
                   comment="MarLarguito is a diver's paradise! The sheer beauty of Cozumel's marine world, coupled with their top-notch service, made it a magical experience. Truly the best dive club!"
-                  src="https://source.unsplash.com/50x50/?portrait?1"
+                  image={CommentUser3}
                   name="Leroy Jenkins"
                 />
 
                 <Comments
                   comment="MMy dives with MarLarguito were extraordinary! With their guidance, I discovered Cozumel's underwater wonders. Safety, fun, and nature's beauty – they offered it all. Highly recommended!"
-                  src="https://source.unsplash.com/50x50/?portrait?1"
+                  image={CommentUser4}
                   name="Leroy Jenkins"
                 />
               </div>
