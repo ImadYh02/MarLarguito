@@ -31,7 +31,7 @@ export default function RootLayout({
         href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Poppins:ital,wght@0,700;1,400;1,800&family=Work+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap"
         rel="stylesheet"
       ></Link>
-      <title>Diving Club | Mara Larguito</title>
+      <title>Diving Club | MarLarguito</title>
       <Link
         href="https://cdn.jsdelivr.net/npm/keen-slider@6.8.6/keen-slider.min.css"
         rel="stylesheet"
