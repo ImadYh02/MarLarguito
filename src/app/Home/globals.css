@@ -265,3 +265,38 @@ html {
       text-decoration: none;
   }
 }
+
+.text-black {
+  color: #000000;
+}
+
+.bg-yellow-500 {
+  background-color: #f59e0b;
+}
+
+.rounded {
+  border-radius: 0.25rem;
+}
+
+.md\:bg-transparent {
+  background-color: transparent;
+}
+
+.md\:text-yellow-500 {
+  color: #f59e0b;
+}
+
+.md\:p-0 {
+  padding: 0;
+}
+
+.md\:dark\:text-yellow-500 {
+  color: #f59e0b;
+}
+
+.link-hover:hover {
+  background-color: transparent;
+  color: rgba(234, 179, 8, var(--tw-text-opacity));
+  padding: 0px;
+  text-decoration: none;
+}

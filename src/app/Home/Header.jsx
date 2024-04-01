@@ -82,13 +82,13 @@ function Header() {
   return (
     <nav className={`text-white w-full z-20 top-0 left-0 fixed ${scrolling ? "bg-black" : "bg-transparent"} border-b`}>
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
-        <a href="https://flowbite.com/" className="flex items-center">
+        <Link href="/" className="flex items-center">
           <Image
             src={Logo}
             className="w-10 h-10 lg:h-14 lg:w-14 mr-3"
             alt="MarLarguito Logo"
           />
-        </a>
+        </Link>
       <div className="flex md:order-2">
         <label className="swap swap-rotate">
           {/* this hidden checkbox controls the state */}
